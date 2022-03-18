@@ -215,7 +215,7 @@ body {
 	font-size: 1em;
 	line-height: 1.5em;
 	
-	padding-top: 80px;
+	padding-top: 50px;
 }
 
 h1 {
@@ -245,7 +245,7 @@ img {
 #main-header {
 	background: #111001;
 	color: white;
-	height: 50px;
+	height: 80px;
 	
 	width: 100%;
 	left: 0;
