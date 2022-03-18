@@ -210,7 +210,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
-	color: #5414FF;
+	color: #FFFFFF;
 	background: #f2f2f2; 
 	font-size: 1em;
 	line-height: 1.5em;
@@ -243,14 +243,14 @@ img {
 //-------------------------------
 ************/
 #main-header {
-	background: #111001;
+	background: #F4F4F4;
 	color: white;
-	height: 60px;
+	height: 55px;
 	
 	width: 100%;
 	left: 0;
 	top: 0;
-	position: fixed;
+	position: left;
 }	
 	#main-header a {
 		color: white;
@@ -279,7 +279,7 @@ img {
 		display: block;
 		font-weight: 300;
 		font-size: 0.8em;
-		color: #000E5F;
+		color: #FFFFFF;
 	}
 	
 
