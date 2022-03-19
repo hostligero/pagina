@@ -245,7 +245,7 @@ img {
 #main-header {
 	background: #111001;
 	color: white;
-	height: 62px;
+	height: 66px;
 	
 	width: 100%;
 	left: 0;
@@ -266,7 +266,7 @@ img {
 	text-decoration: none;
 }
 	#logo-header:hover {
-		color: #2DBEFF;
+		color: #0D6EFD;
 	}
 	
 	#logo-header .site-name {
