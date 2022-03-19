@@ -160,8 +160,8 @@ ul li a:hover + .hidden, .hidden:hover {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight:bold;
 	text-decoration: none;
-	color: #fff;
-	background: #2598c3;
+	color: #0D6EFD;
+	background: #1C80FF;
 	text-align: center;
 	padding: 7px 0;
 	display: none;
@@ -245,7 +245,7 @@ img {
 #main-header {
 	background: #111001;
 	color: white;
-	height: 58px;
+	height: 60px;
 	
 	width: 100%;
 	left: 0;
@@ -485,7 +485,7 @@ sup {
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -0.14em;
 }
 
 sup {
