@@ -103,7 +103,17 @@ li {
 	margin-right: 1px;
 }
 
-
+/*Estilo para los links*/
+li a {
+	display:block;
+	min-width:140px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-family:Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: #444;
+	text-decoration: none;
 }
 
 li:hover a {
