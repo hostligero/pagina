@@ -89,265 +89,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-<style type="text/css">
-ul {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	position: absolute;
-}
 
-li {
-	display:inline-block;
-	float: left;
-	margin-right: 1px;
-}
-
-/*Estilo para los links*/
-li a {
-	display:block;
-	min-width:140px;
-	height: 35px;
-	text-align: center;
-	line-height: 35px;
-	font-family:Helvetica, Arial, sans-serif;
-	color: #111001;
-	background: #111001;
-	text-decoration: none;
-}
-
-li:hover a {
-	background: #72d9fb;
-}
-
-li:hover ul a {
-	background: #e1e1e1;
-	color: #222;
-	height: 35px;
-	line-height: 35px;
-}
-
-/*Hover para enlaces desplegados*/
-li:hover ul a:hover {
-	background: #2598c3;
-	color: #fff;
-}
-
-/*Ocultar enlaces desplegables hasta que se necesiten*/
-li ul {
-	display: none;
-}
-
-/*Hacer vínculos desplegables verticales*/
-li ul li {
-	display: block;
-	float: none;
-}
-
-li ul li a {
-	width: auto;
-	min-width: 100px;
-	padding: 0 19px;
-}
-
-/*Visualizar el menú desplegable en hover*/
-ul li a:hover + .hidden, .hidden:hover {
-	display: block;
-}
-
-/*Estilos boton desplegar menu*/
-.show-menu {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight:bold;
-	text-decoration: none;
-	color: #0D6EFD;
-	background: #1C80FF;
-	text-align: center;
-	padding: 7px 0;
-	display: none;
-}
-
-input[type=checkbox]{
-    display: none;
-}
-
-/*Mostrar menú cuando se marca la casilla de verificación invisible*/
-input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
-
-
-/*Estilo responsivo ancho menor de 750px*/
-
-@media screen and (max-width : 750px){
-	/*Hacer que los vínculos desplegables aparezcan en línea*/
-	ul {
-		position: static;
-		display: none;
-	}
-	/*Crear espacio vertical*/
-	li {
-		margin-bottom: 1px;
-	}
-	/*Todos los enlaces del menú de ancho completo*/
-	ul li, li a {
-		width: 100%;
-	}
-
-	.show-menu {
-		display:block;
-		cursor:pointer;
-	}
-}
-</style>
-
-/************ 
-//--------------------------------
-// GENERAL
-//-------------------------------
-************/
-body {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #FFFFFF;
-	background: #f2f2f2; 
-	font-size: 1em;
-	line-height: 1.5em;
-	
-	padding-top: 60px;
-}
-
-h1 {
-	font-size: 2.3em;
-  line-height: 1.3em;
-	margin: 15px 0;
-	text-align: center;
-	font-weight: 300;
-}
-
-p {
-	margin: 0 0 1.5em 0;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
-
-
-/************ 
-//-------------------------------
-// CABECERA
-//-------------------------------
-************/
-#main-header {
-	background: #111001;
-	color: white;
-	height: 58px;
-	
-	width: 100%;
-	left: 0;
-	top: 0;
-	position: fixed;
-}	
-	#main-header a {
-		color: white;
-	}
-	
-	
-/*
- * Logo
- */
-#logo-header {
-	float: left;
-	padding: 15px 0 0 20px;
-	text-decoration: none;
-}
-	#logo-header:hover {
-		color: #0D6EFD;
-	}
-	
-	#logo-header .site-name {
-		display: block;
-		font-weight: 700;
-		font-size: 1.2em;
-	}
-	
-	#logo-header .site-desc {
-		display: block;
-		font-weight: 300;
-		font-size: 0.8em;
-		color: #FFFFFF;
-	}
-	
-
-/*
- * Navegación
- */
-nav {
-	float: right;
-}
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		padding-right: 20px;
-	}
-	
-		nav ul li {
-			display: inline-block;
-			line-height: 80px;
-		}
-			
-			nav ul li a {
-				display: block;
-				padding: 0 10px;
-				text-decoration: none;
-			}
-			
-				nav ul li a:hover {
-					background: #0D6EFD;
-				}
-     
-/************ 
-//------------------------------
-// CONTENIDO
-//------------------------------
-************/
-#main-content {
-	background: white;
-	width: 90%;
-	max-width: 800px;
-	margin: 20px auto;
-	box-shadow: 0 0 10px rgba(0,0,0,.1);
-}
-
-	#main-content header,
-	#main-content .content {
-		padding: 40px;
-	}
-/************
-//-----------------------------
-// PIE PÁGINA
-//-----------------------------
-************/
-#main-footer {
-	background: #333;
-	color: white;
-	text-align: center;
-	padding: 20px;
-	margin-top: 40px;
-}
-	#main-footer p {
-		margin: 0;
-	}
-	
-	#main-footer a {
-		color: white;
-	}
-hr {
 
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
@@ -834,9 +576,265 @@ input.ct-red + span + label + span.switch-right {
 
 
 
+<style type="text/css">
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+}
+
+/*Estilo para los links*/
+li a {
+	display:block;
+	min-width:140px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-family:Helvetica, Arial, sans-serif;
+	color: #111001;
+	background: #111001;
+	text-decoration: none;
+}
+
+li:hover a {
+	background: #72d9fb;
+}
+
+li:hover ul a {
+	background: #e1e1e1;
+	color: #222;
+	height: 35px;
+	line-height: 35px;
+}
+
+/*Hover para enlaces desplegados*/
+li:hover ul a:hover {
+	background: #2598c3;
+	color: #fff;
+}
+
+/*Ocultar enlaces desplegables hasta que se necesiten*/
+li ul {
+	display: none;
+}
+
+/*Hacer vínculos desplegables verticales*/
+li ul li {
+	display: block;
+	float: none;
+}
+
+li ul li a {
+	width: auto;
+	min-width: 100px;
+	padding: 0 19px;
+}
+
+/*Visualizar el menú desplegable en hover*/
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+/*Estilos boton desplegar menu*/
+.show-menu {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	text-decoration: none;
+	color: #0D6EFD;
+	background: #1C80FF;
+	text-align: center;
+	padding: 7px 0;
+	display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+/*Mostrar menú cuando se marca la casilla de verificación invisible*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Estilo responsivo ancho menor de 750px*/
+
+@media screen and (max-width : 750px){
+	/*Hacer que los vínculos desplegables aparezcan en línea*/
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Crear espacio vertical*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Todos los enlaces del menú de ancho completo*/
+	ul li, li a {
+		width: 100%;
+	}
+
+	.show-menu {
+		display:block;
+		cursor:pointer;
+	}
+}
+</style>
+
+/************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 60px;
+}
+
+h1 {
+	font-size: 2.3em;
+  line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
 
 
 
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+	background: #111001;
+	color: white;
+	height: 58px;
+	
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+	#main-header a {
+		color: white;
+	}
+	
+	
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0D6EFD;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #FFFFFF;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0D6EFD;
+				}
+     
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+hr {
 
   margin: 1rem 0;
   color: inherit;
