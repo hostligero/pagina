@@ -100,7 +100,7 @@ ul {
 li {
 	display:inline-block;
 	float: left;
-	margin-right: 20px;
+	margin-right: 1px;
 }
 
 /*Estilo para los links*/
