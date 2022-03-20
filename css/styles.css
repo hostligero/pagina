@@ -100,7 +100,7 @@ ul {
 li {
 	display:inline-block;
 	float: left;
-	margin-right: 1px;
+	margin-right: 20px;
 }
 
 /*Estilo para los links*/
@@ -111,8 +111,8 @@ li a {
 	text-align: center;
 	line-height: 35px;
 	font-family:Helvetica, Arial, sans-serif;
-	color: #fff;
-	background: #444;
+	color: #111001;
+	background: #111001;
 	text-decoration: none;
 }
 
@@ -245,7 +245,7 @@ img {
 #main-header {
 	background: #111001;
 	color: white;
-	height: 66px;
+	height: 60px;
 	
 	width: 100%;
 	left: 0;
