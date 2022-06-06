@@ -89,42 +89,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-
 }
-
-input[type=checkbox]{
-    display: none;
-}
-
-/*Mostrar menú cuando se marca la casilla de verificación invisible*/
-input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
-
-
-/*Estilo responsivo ancho menor de 750px*/
-
-@media screen and (max-width : 750px){
-	/*Hacer que los vínculos desplegables aparezcan en línea*/
-	ul {
-		position: static;
-		display: none;
-	}
-	/*Crear espacio vertical*/
-	li {
-		margin-bottom: 1px;
-	}
-	/*Todos los enlaces del menú de ancho completo*/
-	ul li, li a {
-		width: 100%;
-	}
-
-	.show-menu {
-		display:block;
-		cursor:pointer;
-	}
-}
-</style>
 
 /************ 
 //--------------------------------
