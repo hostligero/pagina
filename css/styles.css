@@ -92,18 +92,6 @@ body {
 
 }
 
-/*Estilos boton desplegar menu*/
-.show-menu {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight:bold;
-	text-decoration: none;
-	color: #0D6EFD;
-	background: #1C80FF;
-	text-align: center;
-	padding: 7px 0;
-	display: none;
-}
-
 input[type=checkbox]{
     display: none;
 }
